@@ -1,0 +1,238 @@
+.primehome{
+    background-image: url(./L_height.webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.primehome::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgb(3, 3, 39));
+    opacity: 0.8;
+}
+.primegarden{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 111;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.primegarden h1{
+    color: white;
+    text-align: center;
+}
+.primegarden button{
+    background-color: rgb(255, 31, 80);
+    border: none;
+    color: white;
+    width: 110px;
+    height: 40px;
+}
+.primegarden p{
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+.texts h5{
+font-size: 34px;
+position: relative;
+}
+.texts h5::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: rgb(69, 69, 69);
+    bottom: -15px;
+    left: 50px;
+}
+.yeva{
+    width: 100%;
+    height: 400px;
+}
+.container{
+    margin-top: 30px;
+}
+.texts{
+    margin: 20px auto;
+}
+.grid__section{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+}
+.img__container{
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid blue; */
+    margin-top: 60px;
+    /* padding: 0 20px 0 20px; */
+}
+.just::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-image: linear-gradient(rgb(1, 1, 100));
+opacity: 0;
+transition: 0.4s;
+}
+.just{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.img{
+    transition: 0.6s;
+}
+.just:hover::after{
+    opacity: 0.7;
+}
+.just:hover,.img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.linebelow h3{
+font-size: 40px;
+color: rgb(0, 0, 32);
+text-align: center;
+position: relative;
+}
+.linebelow h3::after{
+content: "";
+position: absolute;
+width: 150px;
+height: 2px;
+background-color: grey;
+bottom: -10px;
+left: 50%;
+transform: translateX(-50%);
+}
+.linebelow{
+    padding: 50px 0 25px 0;
+}
+.img__holder{
+    width: 100%;
+    height: 335px;
+}
+.circle{
+    /* width: 60%; */
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.circle img{
+    border-radius: 50%;
+}
+.stars{
+    display: flex;
+    gap: 10px;
+}
+.little__texts{
+    width: 500px;
+}
+.littleone{
+    text-align: center;
+   padding-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.onemore{
+    margin-top: 400px;
+    background-color: rgb(221, 221, 255);
+    padding: 60px 0px 60px 100px;
+}
+.first input{
+    width: 75%;
+
+}
+.second textarea{
+width: 75%;
+height: 100px;
+}
+input, textarea{
+   outline: none;
+}
+input:focus{
+    border: 1px solid red;
+}
+.superman{
+    flex-direction: column;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    padding-left: 50px;
+}
+.btnimg{
+    border-radius: 50%;
+    /* transition: 0.3s; */
+}
+section#testimonials{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 40px;
+}
+.nav-item .nav-link.active{
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.plus{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(6, 132, 243);
+    position: absolute;
+    bottom: -50px;
+    transition: 0.5s;
+}
+.peace{
+    position: relative;
+    overflow: hidden;
+}
+.peace img{
+    transition: 0.5s;
+}
+.card:hover .peace img{
+    transform: translateY(-30px);
+}
+.card:hover .plus{
+    bottom: 0;
+}
+.amaliyot{
+    width: 400px;
+}
+footer{
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__logos{
+    display: flex;
+    gap: 5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
